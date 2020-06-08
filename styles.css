@@ -1,14 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Cairo");
-@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+html {
+    color:white;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
 #navbar {
-    background: #49516F;
+    background: #4C9F70;
     position: fixed;
     top: 0;
     right: 0;
     width: 100%;
-    border-bottom: solid; 
+    /* border-bottom: solid; 
     border-color: #4C9F70;
-    border-width: 5px;
+    border-width: 5px; */
+    box-shadow: 5px 5px 8px  rgb(47, 51, 47);
 }
 #nav-list {
     display: flex;
@@ -18,7 +27,6 @@
     font-family: Cairo;
 }
 .nav-item {
-    padding: 15px;
     font-size: 20px;
     font-weight: bold;
     text-transform: lowercase;
@@ -36,9 +44,35 @@
     transition: 0.4s ease-out;
 }
 #welcome-section {
-    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
     width: 100%;
     height: 100vh;
-    right: 100px;
-    background: linear-gradient(50deg, #8EA4D2 10%,#6279B8 100%);
+    background: linear-gradient(50deg, #49516F 0%,#6279B8 100%);
 }
+#welcome-section h1 {
+    font-size: 50px;
+}
+#welcome-section h3 {
+    font-size: 30px;
+}
+#welcome-section h1, h3 {
+    font-family: 'Indie Flower', cursive;
+}
+#welcome-section p {
+    font-family: Cairo;
+    font-size: 20px;
+    text-align: justify;
+}
+#profile{
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 5px 5px 8px  rgb(47, 51, 47);
+}
+main {
+    background-color: #4C9F70;
+}
+
