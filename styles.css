@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Cairo");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+#navbar {
+    background: #49516F;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    border-bottom: solid; 
+    border-color: #4C9F70;
+    border-width: 5px;
+}
+#nav-list {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    list-style: none;
+    font-family: Cairo;
+}
+.nav-item {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: lowercase;
+    height: 100%;
+}
+.nav-item a {
+    padding: 5px;  
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.nav-item a:hover {
+    background-color: rgba(76, 159, 112, 0.7);
+    border-radius: 10px;
+    transition: 0.4s ease-out;
+}
+#welcome-section {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    right: 100px;
+    background: linear-gradient(50deg, #8EA4D2 10%,#6279B8 100%);
+}
