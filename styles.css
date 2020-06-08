@@ -135,4 +135,9 @@ hr {
     border-width: 5px;
     border-style: solid;
 }
+@media(max-width: 350px) {
+    welcome-section {
+        padding: 10px;
+    }
+}
 
