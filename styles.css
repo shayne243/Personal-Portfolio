@@ -53,6 +53,7 @@ body {
     background: linear-gradient(50deg, #49516F 0%,#6279B8 100%);
 }
 #welcome-section h1 {
+    text-decoration: yellowgreen underline;
     font-size: 50px;
 }
 #welcome-section h3 {
@@ -95,17 +96,43 @@ main {
     text-align: center;
     justify-content: center;
 }
-#project-text, {
+#project-text {
     margin-left: 15px;
     font-size: 30px;
     font-family: 'Indie Flower', cursive;
 }
 #project-grid a {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    border-radius: 10px;
     text-decoration: none;
 }
 #project-grid a:hover{
     text-decoration: yellowgreen underline;
-    transition:  ease;
+    transition: 0.4s ease;
+}
+#links div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#link-grid a {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    font-family: Cairo;
+    color: white;
+    text-decoration: none;
+}
+#link-grid a:hover{
+    text-decoration: yellowgreen underline;
+    transition: 0.4s ease;
+}
+hr {
+    height: 5px;
+    border-width: 5px;
+    border-style: solid;
 }
 
